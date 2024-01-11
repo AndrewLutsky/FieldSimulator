@@ -7,4 +7,5 @@
 
 
 ## To-Do:
-- implement 3D Visualization
+- Implement 3D Visualization.
+- Add more tester functions.
