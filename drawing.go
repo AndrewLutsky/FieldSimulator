@@ -42,6 +42,7 @@ func DrawToCanvas(step []Charge, canvasWidth int, simWidth float64) image.Image 
 		if OutOfRange(charge.position, simWidth) {
 			panic("Simulation Crash")
 		}
+
 		centerX := (charge.position.x / simWidth) * float64(canvasWidth)
 		centerY := (charge.position.y / simWidth) * float64(canvasWidth)
 		//centerZ := (charge.position.z / simWidth) * float64(canvasWidth)
